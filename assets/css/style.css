@@ -381,17 +381,18 @@ aside .thumb {
     gap: 2rem;
     justify-content: space-between;
   }
-  .article {
-    display: flex;
-  }
+
   .column {
+    display: flex;
     min-width: 400px;
     max-width: 600px;
-    display: flex;
     gap: 2rem;
   }
   aside {
     display: flex;
     flex-direction: row-reverse;
+  }
+  .container {
+    width: 40%;
   }
 }
